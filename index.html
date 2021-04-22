@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>GACE Tech</title>
+</head>
+<body>
+
+    <header id="inicio" class="main-header">
+        <nav class="main-menu">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/LOGO_web_LOGO WEB.svg" alt="GACE Tech Logo">
+                    <p>GACE Tech</p>
+                </a>
+            </div>
+            <img src="img/hamburguer.svg" class="main-menu-icon" alt="" id="main-menu-icon">
+            <div class="main-menu-container" id="main-menu-container">
+                <a href="#inicio" class="menu-item">Inicio</a>
+                <a href="#nosotros" class="menu-item">Nosotros</a>
+                <a href="#servicios" class="menu-item">Servicios</a>
+                <a href="#contacto" class="menu-item">Contacto</a>
+            </div>
+        </nav>
+        <div class="banner" id="banner">
+            <div class="banner-img-container">
+                <img src="img/banner.jpg" alt="">
+            </div>
+            
+            <div class="banner-text">
+                <h1>GACE Tech</h1>
+                <p>Tu mejor opción en servicios técnicos computacionales</p>
+                <a href="#main" class="btn-info"><i class="fas fa-arrow-circle-down"></i></a>
+            </div> 
+        </div>
+    </header>
+
+    <main id="main" class="main">
+        <section id="nosotros" class="nosotros">
+            <h2>¿Quienes Somos?</h2>
+            <article class="nosotros-content">
+                <div class="nosotros-img">
+                    <img src="img/LOGO.png" alt="">
+                </div>
+                <div class="nosotros-text">
+                    <p>Soy GACE Tech, negocio que ofrece servicio técnico en reparación y mantenimiento de computadoras y equipos informáticos.</p> <br>
+                    <p>Contamos con personal capacitado y con el conocimiento más que suficiente para desenvolvernos en el área con tota destreza</p><br>
+                    <p>Mi objetivo es brindarte un servicio eficiente y de calidad, estoy dispuesto a ayudarte no dudes en darnos tu confianza te esperamos!!</p>
+                </div>
+            </article>
+
+            <h2>Galería</h2>
+
+            <div class="gallery">
+                <div class="gallery-item"><img src="img/anexo1.jpg" alt=""></div>
+                <div class="gallery-item"><img src="img/anexo2.jpg" alt=""></div>
+                <div class="gallery-item"><img src="img/anexo3.jpg" alt=""></div>
+                <div class="gallery-item"><img src="img/portada.jpg" alt=""></div>
+            </div>
+        </section>
+        <div class="separador"></div>
+        <section id="servicios" class="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio-item">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Hardware</h3>  
+                    <ul>
+                        <li>Diagnóstico y reparación de componentes</li>
+                        <li>Cambio de piezas defectuosas</li>
+                        <li>Limpieza y mantenimiento interno</li>
+                        <li>Venta de componentes</li>
+                    </ul>
+                </div>
+                <div class="servicio-item">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Formateo</li>
+                        <li>Mantenimiento del Sistema Operativo</li>
+                        <li>Instalación de aplicaciones</li>
+                        <li>Limpieza de Virus</li>
+                    </ul>
+                </div>
+                <div class="servicio-item">
+                    <i class="fas fa-home"></i>
+                    <h3>Servicio a Domicilio</h3> 
+                    <p>Llevamos todos nuestros servicios a la comodidad de tu hogar ¡Así de increíble!!, válido solo para la ciudad de Esmeraldas, Ecuador</p> 
+                </div>
+            </div>
+        </section>
+        <div class="separador"></div>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <div id="map"></div>
+            <p>Dirección: Propicia 1, Esmeraldas, Ecuador</p>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <a href="https://www.facebook.com/GACETech"><i class="fab fa-facebook-f"></i> GACE Tech</a>
+        <a href="https://api.whatsapp.com/send?phone=593939238861&text=hola,%20¿qué%20tal%20estás?"><i class="fab fa-whatsapp"></i> Escribe directamente o +593 939238861</a>
+        <p>&copy; Copyright García Cedeño Roberto / GACE Tech</p>
+    </footer>
+    
+    <div class="ws-action" id="ws-action">
+        <div class="ws-action-container" id="ws-container">
+            <a href="https://api.whatsapp.com/send?phone=593939238861&text=hola,%20¿qué%20tal%20estás?"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/GACETech"><i class="fab fa-facebook"></i></a>
+        </div>
+        <i class="fas fa-grip-lines-vertical ws-button" id="ws-button"></i>
+        
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
