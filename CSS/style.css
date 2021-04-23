@@ -102,6 +102,10 @@ h2{
     margin: 1.5em 0;
 }
 
+.main-menu .main-menu-container a.active{
+    color:#e0ce2b;
+}
+
 /*BANNER*/
 .banner{
     top:75px;
