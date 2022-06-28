@@ -17,8 +17,6 @@ btnMenu.addEventListener('click',()=>{
 for(const item of menuItem){
     item.addEventListener('click',()=>{
         menu.classList.remove('show');
-        
-        
     })
 }
 
